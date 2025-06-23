@@ -1557,8 +1557,8 @@ class QHA_ZSISA(HasPickleIO):
                     pressure_gpa: float,
                     mode: str,
                     structure_guess: Structure,
-                    energy_guess,
                     stress_guess,
+                    energy_guess,
                     bo_elastic_voigt) -> ThermalData:
         """
         Args
